@@ -1,7 +1,24 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 원티드 프리온보딩 프론트엔드 - 선발 과제
 
 ### `배포주소`
 
 [https://wanted-pre-onboarding-frontend-eil6.vercel.app](https://wanted-pre-onboarding-frontend-eil6.vercel.app)
+
+### `실행방법`
+
+## 로그인/회원가입
+
+`/` 로그인  
+`/sign` '회원가입
+
+- 회원가입 경우 이메일 조건: @ 포함등 xxxxxxx@xxx.xx 처럼 이메일 형식을 갖춰야됩니다.
+  비밀번호 조건: 8자 이상,영문,숫자,특수문자으로 기입해야합니다.
+- 로그인은 이메일과 비밀번호가 데이터가 없으면 로그인 버튼을 눌러도 활성 못하게 지정했습니다.
+
+## TODOLIST
+
+`/todo` 메인화면
+
+- 투두 리스트의 개별 아이템 우측에 수정버튼이 존재하고 해당 버튼을 누르면 수정모드가 활성화되고 투두 리스트의 내용을 수정할 수 있습니다.
+- 수정모드에서는 개별 아이템의 우측에 제출버튼과 취소버튼이 표시되며 해당 버튼을 통해서 수정 내용을 제출하거나 수정을 취소할 수 있습니다.
+- 투두 리스트의 개별 아이템 우측에 삭제버튼이 존재하고 해당 버튼을 누르면 투두 리스트를 삭제할 수 있습니다.
